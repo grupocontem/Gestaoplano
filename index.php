@@ -15,18 +15,6 @@
     
     	<style>
 
-    	.contrate{
-        	background-color: #fd3550;
-        	padding: 10px;
-        	border-radius: 18px;
-        	color: white!important;
-      	}
-
-		.contrate:hover{
-			background-color: #d3d3d3;
-			color: black!important;
-		}
-
 		.parallax {
 			background-image: url("img/banner.jpg");
 			min-height: 550px; 
@@ -245,7 +233,6 @@
 		</div>
 
 		<div class="snackbars" id="form-output-global"></div>
-		<!-- Javascript-->
 		<script src="js/core.min.js"></script>
 		<script src="js/script.js"></script>
   	</body>
