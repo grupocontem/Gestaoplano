@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>Amicoserv</title>
+        <title>Uniservip</title>
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +17,12 @@
     <body>
         <div class="page">
             <?php include("header_menu.php"); ?>
-            <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(img/amicoserv.jpg);">
+            <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(img/unpe.jpg);">
                 <div class="breadcrumbs-custom-inner">
                     <div class="container breadcrumbs-custom-container">
                         <div class="breadcrumbs-custom-main">
                             <h6 class="breadcrumbs-custom-subtitle title-decorated" style="color:black;">Entidades</h6>
-                            <h1 class="breadcrumbs-custom-title" style="color:orange;"><mark style="background-color:#FD0F2E; border-radius: 5px;">AMICOSERV</mark></h1>
+                            <h1 class="breadcrumbs-custom-title" style="color:orange;"><mark style="background-color:#FD0F2E; border-radius: 5px;">UNPE</mark></h1>
                         </div>
                     </div>
                 </div>
@@ -32,11 +32,11 @@
                 <div class="container">
                     <div class="row row-50 justify-content-center justify-content-lg-between">
                         <div class="col-md-10 col-lg-6">
-                            <p><h3>Público Alvo:</h3><br><h4> - Comércio </h4>
+                            <p><h3>Público Alvo:</h3><br><h4> - Profissionais da Educação (Professores e Pedagogos)</h4>
                             <br><br><h3>Atuação:</h3><br><h4> - Nacional</h4>
-                            <br><br><h3>Nome conforme CNPJ:</h3><br><h4> - Associação de Ajuda Mútua para o Comércio </h4></p>
+                            <br><br><h3>Nome conforme CNPJ:</h3><br><h4> - UNPE - União Nacional Dos Profissionais Da Educação</h4></p>
                         </div>
-                        <div class="col-md-10 col-lg-6 col-xl-5"> <img class="img-responsive" src="img/entidades/amicoserv.jpg" alt=""/>
+                        <div class="col-md-10 col-lg-6 col-xl-5"> <img class="img-responsive" src="img/entidades/unpe.jpg" alt=""/>
                     </div>
                 </div>
 
@@ -56,7 +56,6 @@
       <?php include("footer.php"); ?>
 
       <div class="snackbars" id="form-output-global"></div>
-      <!-- Javascript-->
       <script src="js/core.min.js"></script>
       <script src="js/script.js"></script>
     </body>

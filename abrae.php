@@ -41,7 +41,7 @@
                 </div>
 
 
-                <div class="container">
+                <div class="container" style="margin-top: 45px;">
                     <h3 class="wow-outer" style="text-align: center;"><span class="wow">OPERADORAS VINCULADAS</span></h3>
                     <br>
                     <hr style="border: #FD0F2E solid 1px;">

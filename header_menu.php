@@ -24,12 +24,12 @@
                     <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="abrae.php">Abrae</a></li>
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="amicoserv.php">Amicoserv</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-blog-post.html">Aplb</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-blog-post.html">Assist Baixada</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-blog-post.html">Prime Leste</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-blog-post.html">Uned</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-blog-post.html">Uniservip</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-blog-post.html">Unpe</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="aplb.php">Aplb</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="assist.php">Assist Baixada</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="primeleste.php">Prime Leste</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="uned.php">Uned</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="uniservip.php">Uniservip</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="unpe.php">Unpe</a></li>
                     </ul>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Conheça nossos parceiros</a>
                     </li>
