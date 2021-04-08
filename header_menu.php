@@ -33,7 +33,7 @@
                     </ul>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="parceiros.php">Conheça nossos parceiros</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contato.html">Contato</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contato.php">Contato</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link contrate" href="contrate.html">Contrate aqui</a>
                     </li>

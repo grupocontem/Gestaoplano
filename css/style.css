@@ -118,6 +118,10 @@ body {
 	color: black!important;
 }
 
+.post-tiny-media{
+	cursor:pointer;
+}
+
 @media (min-width: 768px) {
 	body {
 		font-size: 16px;
@@ -496,7 +500,7 @@ p .text-width-1 {
 }
 
 html .page .text-primary {
-	color: #EBAB49;
+	color: #FD0F2E;
 }
 
 .page .text-danger {
@@ -2013,14 +2017,14 @@ hr {
 
 .button.button-primary, .button.button-primary:focus {
 	color: #fff;
-	background-color: #EBAB49;
-	border-color: #EBAB49;
+	background-color: #fd3550;
+	border-color: white;
 }
 
 .button.button-primary:hover, .button.button-primary:active {
 	color: #fff;
-	background-color: #94600f;
-	border-color: #94600f;
+	background-color: #9c3a47;
+	border-color:white;
 }
 
 html .button.button-primary-lighten, html .button.button-primary-lighten:focus {

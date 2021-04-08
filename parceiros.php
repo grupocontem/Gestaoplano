@@ -33,51 +33,48 @@
                 <div class="container">
                     <div class="row row-50">
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/unimed.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/unimed.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/bradesco.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/bradesco.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/sulamerica.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/sulamerica.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/porto-seguro.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/porto-seguro.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/golden.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/golden.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/amil.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/amil.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/assim.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/assim.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/notredame.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/notredame.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/onix.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/onix.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/cemeru.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/cemeru.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/samoc.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/samoc.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/prevent.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/prevent.png" alt="" width="270" height="184"/></a></article>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 wow-outer">
-                            <article class="post-tiny"><a class="post-tiny-media" href="contrate-aqui.php"><img src="img/operadoras/integral.png" alt="" width="270" height="184"/></a></article>
+                            <article class="post-tiny"><a class="post-tiny-media"><img src="img/operadoras/integral.png" alt="" width="270" height="184"/></a></article>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-
-
-      
       
       <?php include("footer.php"); ?>
 
