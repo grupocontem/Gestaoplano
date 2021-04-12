@@ -31,11 +31,11 @@
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="uniservip.php">Uniservip</a></li>
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="unpe.php">Unpe</a></li>
                     </ul>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="parceiros.php">Conheça nossos parceiros</a>
+                    <!--<li class="rd-nav-item"><a class="rd-nav-link" href="parceiros.php">Conheça nossos parceiros</a>-->
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contato.php">Contato</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link contrate" href="contrate.html">Contrate aqui</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link contrate" href="contato.php">Contrate aqui</a>
                     </li>
                 </ul>
                 </div>

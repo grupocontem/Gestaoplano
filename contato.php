@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>Parceiros</title>
+        <title>Contato</title>
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +12,21 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/style.css" id="main-styles-link">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <style>
+
+        .loading{
+            width: 50px;
+        }
+
+        </style>
     </head>
 
     <body>
         <div class="page">
             <?php include("header_menu.php"); ?>
-            <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(img/unpe.jpg);">
+            <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(img/contato.jpg);">
                 <div class="breadcrumbs-custom-inner">
                     <div class="container breadcrumbs-custom-container">
                         <div class="breadcrumbs-custom-main">
@@ -67,45 +76,80 @@
                                             <div class="col-md-12 wow-outer">
                                                 <div class="form-wrap wow ">
                                                     <label class="form-label-outside" for="contact-first-name">Nome Completo</label>
-                                                    <input class="form-input" id="nome" type="text" name="nome" data-constraints="@Required">
+                                                    <input class="form-input" id="nome" type="text" name="nome">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 wow-outer">
                                                 <div class="form-wrap wow">
                                                     <label class="form-label-outside" for="contact-email">E-mail</label>
-                                                    <input class="form-input" id="email" type="email" name="email" data-constraints="@Email @Required">
+                                                    <input class="form-input" id="email" type="email" name="email">
                                                 </div>
                                             </div>
                                             <div class="col-md-6 wow-outer">
                                                 <div class="form-wrap wow">
                                                     <label class="form-label-outside" for="contact-phone">Telefone Celular</label>
-                                                    <input class="form-input" id="celular" type="text" name="celular" data-constraints="@PhoneNumber">
+                                                    <input class="form-input" id="celular" type="text" name="telefone">
                                                 </div>
                                             </div>
                                             <div class="col-12 wow-outer">
                                                 <div class="form-wrap wow">
                                                 <label class="form-label-outside" for="contact-message">Escreva sua mensagem!</label>
-                                                <textarea class="form-input" id="contact-message" name="mensagem" data-constraints="@Required"></textarea>
+                                                <textarea class="form-input" id="contact-message" name="mensagem"></textarea>
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="button button-primary" type="submit" id="enviar">Enviar</button>                                
+                                    <button class="button button-primary" type="button" id="enviar">Enviar</button>                                
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="cell-xl-5 height-fill wow fadeIn">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2324522545905!2d-43.177604885484975!3d-22.904795485012734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5f9d6b9751%3A0x598353b01f9ff371!2sR.%20do%20Carmo%2C%209%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020011-020!5e0!3m2!1spt-BR!2sbr!4v1588172114855!5m2!1spt-BR!2sbr" width="800" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2324522545905!2d-43.177604885484975!3d-22.904795485012734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5f9d6b9751%3A0x598353b01f9ff371!2sR.%20do%20Carmo%2C%209%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020011-020!5e0!3m2!1spt-BR!2sbr!4v1588172114855!5m2!1spt-BR!2sbr" style="width: 100%;" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </section>
         </div>
 
-      <?php include("footer.php"); ?>
+        <?php include("footer.php"); ?>
 
-      <div class="snackbars" id="form-output-global"></div>
-      <script src="js/core.min.js"></script>
-      <script src="js/script.js"></script>
+        <div class="snackbars" id="form-output-global"></div>
+        <script src="js/core.min.js"></script>
+        <script src="js/script.js"></script>
+    
+        <script>
+
+        jQuery("#enviar").click(function() {
+    		const dados = $('#contato').serialize();
+            const button_enviar = $('#enviar');
+
+    		$.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: 'contato_email.php',
+                async: true,
+                data: dados,
+                beforeSend: function(){
+                    button_enviar.html('<img src="img/loading.gif" class="loading">');
+                },
+                error: function() {
+                    button_enviar.html('ENVIAR');
+                    swal("Ah não!", "Tivemos problemas. Verifique sua conexão!", "error");
+                },
+    			success: function(result) {
+                    if($.trim(result) == "error"){
+                        button_enviar.html('ENVIAR');
+                        swal("Ops!", "Você deve preencher todos os campos!", "warning");
+                    } else if($.trim(result) == "success"){
+                        button_enviar.html('ENVIADO!');
+                        button_enviar.attr('disabled', 'true');    
+                        swal("Perfeito", "Em breve entraremos em contato com você!", "success");
+                    }
+    			}
+           });
+        });
+
+        </script>      
+
     </body>
   </html>

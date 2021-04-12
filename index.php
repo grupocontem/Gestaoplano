@@ -102,19 +102,17 @@
 		}
 
 		/* Flex Item */
-		.item {
-			margin: 5px;
-			font-size: 1.5em;
+		.thumbnail-classic {
 			-webkit-filter:grayscale(100%);
 			cursor: pointer;
 		}
 
-		.item:hover{
+		.thumbnail-classic:hover{
 			-webkit-filter:grayscale(0%);
 		}
 
 		@media (max-width: 991px){
-			.item {
+			.thumbnail-classic {
 				-webkit-filter:grayscale(0%);
 			}
 		}
@@ -142,12 +140,52 @@
 				</h1>
 			</section>
 
-			<section class="entidades">
-				<h3 class="wow-outer">
-					<span class="wow animated" style="visibility: visible;">NOSSAS ENTIDADES</span>
-				</h3>
-				
+            <section class="section section-lg oh entidades">
+                <h3 class="wow-outer">
+                    <span class="wow animated" style="visibility: visible;">NOSSAS ENTIDADES</span>
+                </h3>
 				<img src="img/linha.png" class="linha">
+
+                <div class="container">
+                    <div class="isotope isotope-responsive row" data-isotope-layout="fitRows" data-isotope-group="portfolio">
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/AMICOSERV.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/ABRAE.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/APLB.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/ASSISTBAIXADA.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/PRIMELESTE.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/UNPE.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/UNISERVIP.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
+                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/UNED.jpg" alt="" width="370" height="256"/>
+                            <div class="thumbnail-classic-dummy"></div></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<!--<section class="entidades">
+				
 
 				<div class="container2 flex flex-wrap">
 					<div class="item">
@@ -198,7 +236,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
 			
 			<section class="section bg-gray-100" style="margin-top: 50px;">
 				<div class="range justify-content-sm-between flex-sm-row-reverse">
