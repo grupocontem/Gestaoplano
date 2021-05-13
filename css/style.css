@@ -8141,7 +8141,7 @@ html [class*='section-'].section-bottom-0 {
 	color: #74757f;
 }
 
-/** 
+/**
 * Accent Backgrounds
 */
 .bg-primary {
@@ -10654,7 +10654,7 @@ html.rd-navbar-fixed-linked .page {
 /**
 *
 * RD Navbar Minimal
-* 
+*
 */
 .rd-navbar-minimal.rd-navbar-static {
 	border-bottom: 1px solid transparent;
@@ -10764,7 +10764,7 @@ html.rd-navbar-fixed-linked .page {
 /**
 *
 * RD Navbar Corporate
-* 
+*
 */
 .rd-navbar-corporate.rd-navbar-static {
 	border-bottom: 1px solid transparent;
@@ -10903,7 +10903,7 @@ html.rd-navbar-fixed-linked .page {
 /**
 *
 * RD Navbar Thin
-* 
+*
 */
 .rd-navbar-thin.rd-navbar-static {
 	background-color: #38342a;
@@ -13343,7 +13343,7 @@ button.swiper-pagination-bullet {
 	}
 }
 
-/* 
+/*
 * Card corporate
 */
 .card-corporate {
@@ -14209,14 +14209,14 @@ yx-axis
 	}
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
 	transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -14300,7 +14300,7 @@ yx-axis
 	display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -14308,7 +14308,7 @@ yx-axis
 	transition: opacity 400ms ease;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {

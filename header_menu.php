@@ -16,7 +16,7 @@
                 <ul class="rd-navbar-nav">
                     <li class="rd-nav-item"><a class="rd-nav-link" href="index.php">Início</a>
                     </li>
-                    
+
                     <li class="rd-nav-item"><a class="rd-nav-link" href="institucional.php">Institucional</a>
                     </li>
 
@@ -35,7 +35,7 @@
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contato.php">Contato</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link contrate" href="contato.php">Contrate aqui</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link contrate" href="cotacao.php">Contrate aqui</a>
                     </li>
                 </ul>
                 </div>

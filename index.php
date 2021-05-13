@@ -12,12 +12,12 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/style.css" id="main-styles-link">
-    
+
     	<style>
 
 		.parallax {
 			background-image: url("img/banner.jpg");
-			min-height: 550px; 
+			min-height: 550px;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -130,12 +130,12 @@
 
   	<body>
 		<div class="page">
-			
+
 			<?php include("header_menu.php"); ?>
 
 			<section class="parallax">
 				<h1 class="caption">
-					<p class="title">GESTÃO PLANO DE SAÚDE</p> 
+					<p class="title">GESTÃO PLANO DE SAÚDE</p>
 					<p class="subtitle">Gerindo possibilidades e gerando saúde!</p>
 				</h1>
 			</section>
@@ -149,35 +149,35 @@
                 <div class="container">
                     <div class="isotope isotope-responsive row" data-isotope-layout="fitRows" data-isotope-group="portfolio">
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/AMICOSERV.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/AMICOSERV.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/ABRAE.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/ABRAE.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/APLB.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/APLB.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/ASSISTBAIXADA.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/ASSISTBAIXADA.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/PRIMELESTE.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/PRIMELESTE.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/UNPE.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/UNPE.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/UNISERVIP.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"><img class="thumbnail-classic-image" src="img/entidades/UNISERVIP.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                         <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
-                            <a class="thumbnail-classic thumbnail-classic-sm" href="single-project.html"><img class="thumbnail-classic-image" src="img/entidades/UNED.jpg" alt="" width="370" height="256"/>
+                            <a class="thumbnail-classic thumbnail-classic-sm"<img class="thumbnail-classic-image" src="img/entidades/UNED.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-classic-dummy"></div></a>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
             </section>
 
 			<!--<section class="entidades">
-				
+
 
 				<div class="container2 flex flex-wrap">
 					<div class="item">
@@ -237,7 +237,7 @@
 					</div>
 				</div>
 			</section>-->
-			
+
 			<section class="section bg-gray-100" style="margin-top: 50px;">
 				<div class="range justify-content-sm-between flex-sm-row-reverse">
 					<div class="cell-sm-6 cell-lg-5 cell-xl-4 align-self-center container">
@@ -266,7 +266,7 @@
 					</div>
 				</div>
 			</section>
-				
+
 			<?php include("footer.php"); ?>
 		</div>
 

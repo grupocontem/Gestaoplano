@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/style.css" id="main-styles-link">
-    
+
     	<style>
 
     	.contrate{
@@ -29,7 +29,7 @@
 
 		.parallax {
 			background-image: url("img/banner.jpg");
-			min-height: 550px; 
+			min-height: 550px;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -170,11 +170,11 @@
                 <div class="container">
                     <div class="row row-50 justify-content-center justify-content-lg-between">
                         <div class="col-md-10 col-lg-6">
-                            <p>Nós somos um grupo de associações profissionais e estudantil que tem como objetivo proporcionar as
-                            melhores opções que o mercado de planos de saúde disponibiliza.
-                            <br><br>Hoje ter um plano de saúde significa proporcionar mais tranquilidade e atendimento de qualidade quando mais
-                            se precisa, além de contar com uma rede própria e credenciada de hospitais, o plano de saúde também se preocupa com a prevenção de doenças e tratamentos para manter a qualidade de vida.
-                            <br><br>Por isso estamos aqui, para gerar possibilidades e gerar saúde.</p>
+							<p>Nós somos um grupo de associações profissionais e estudantis que tem como objetivo proporcionar as melhores opções que o mercado de planos de saúde disponibiliza.
+							<br><br>Hoje ter um plano de saúde significa proporcionar mais tranquilidade e atendimento de qualidade quando mais se precisa.
+							Além de contar com uma rede própria e credenciada de hospitais, o plano de saúde também se preocupa com a prevenção de doenças e tratamentos para manter a qualidade de vida.
+							<br><br>Por isso estamos aqui para gerar possibilidades e gerar saúde.</p>
+
                         </div>
                         <div class="col-md-10 col-lg-6 col-xl-5"> <img class="img-responsive" src="img/logo_gestao.png" alt="" width="470" height="334"/></div>
                     </div>

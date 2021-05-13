@@ -4,12 +4,13 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $telefone = $_POST['telefone'];
 $mensagem = $_POST['mensagem'];
+$captcha_data = $_POST['g-recaptcha-response'];
 
 /*echo''.$nome;
 echo'<br>'.$email;
 echo'<br>'.$telefone;
 echo'<br>'.$mensagem;*/
-
+/*
 require 'PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer();
@@ -32,9 +33,10 @@ $mail->Subject = utf8_decode("Contato | Plan Saude");
 $mail->IsHTML(true);
 $mail->Body = $msg;
 
-if(empty($email) || strlen($telefone) < 10 || empty($nome) || empty($mensagem)){
+if(empty($email) || strlen($telefone) < 10 || empty($nome) || empty($mensagem) || empty($captcha_data)){
   echo json_encode("error");
 } else {
-  $mail->Send();
+  //$mail->Send();
   echo json_encode("success");
 }
+*/

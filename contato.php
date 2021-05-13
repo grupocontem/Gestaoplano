@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/style.css" id="main-styles-link">
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 
         <style>
 
@@ -62,7 +63,7 @@
                     </div>
                 </div>
             </section>
-        
+
             <section class="section bg-gray-100">
                 <div class="range justify-content-xl-between">
                     <div class="cell-xl-6 align-self-center container">
@@ -97,8 +98,9 @@
                                                 <textarea class="form-input" id="contact-message" name="mensagem"></textarea>
                                             </div>
                                         </div>
-                                    </div>
-                                    <button class="button button-primary" type="button" id="enviar">Enviar</button>                                
+                                    </div><br>
+                                    <div class="g-recaptcha" data-sitekey="6Lf9t6kaAAAAAEoqwkqiTkL1N6LFl9dUoe4HW69o"></div>
+                                    <button class="button button-primary" type="button" id="enviar">Enviar</button>
                                     </form>
                                 </div>
                             </div>
@@ -116,7 +118,7 @@
         <div class="snackbars" id="form-output-global"></div>
         <script src="js/core.min.js"></script>
         <script src="js/script.js"></script>
-    
+
         <script>
 
         jQuery("#enviar").click(function() {
@@ -141,15 +143,27 @@
                         button_enviar.html('ENVIAR');
                         swal("Ops!", "Você deve preencher todos os campos!", "warning");
                     } else if($.trim(result) == "success"){
-                        button_enviar.html('ENVIADO!');
-                        button_enviar.attr('disabled', 'true');    
-                        swal("Perfeito", "Em breve entraremos em contato com você!", "success");
+                        //button_enviar.html('ENVIADO!');
+                        //button_enviar.attr('disabled', 'true');
+                        swal({
+                            title: "Perfeito!",
+                            text: "Em breve entraremos em contato com você!",
+                            icon: "success",
+                            buttons: true,
+                          })
+                          .then((willDelete) => {
+                            if (willDelete) {
+                              location.reload();
+                          } else {
+                              location.reload();
+                          }
+                        });
                     }
     			}
            });
         });
 
-        </script>      
+        </script>
 
     </body>
   </html>
